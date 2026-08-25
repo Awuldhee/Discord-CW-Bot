@@ -1,0 +1,7 @@
+{
+    "clientId": "ID_clientId",
+    "guildIds": "ID_Server_guildIds",
+    "moderatorRole":"ID_role_moderatorRole",
+    "botCommandsChannel": "ID_botCommandsChannel",
+    "leaderboardChannel": "ID_update_announcement_otonom_winner"
+}

@@ -1,0 +1,11 @@
+services:
+  discord-cw-bot:
+    build: .
+    container_name: discord-cw-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./database:/app/database
+      - ./backup_files:/app/backup_files
+      - ./credentials:/app/credentials:ro
