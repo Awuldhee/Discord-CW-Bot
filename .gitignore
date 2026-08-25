@@ -1,0 +1,14 @@
+node_modules/
+.env
+
+credentials/*.json
+token.json
+
+database/*.db
+database/*.db-shm
+database/*.db-wal
+
+backup_files/
+
+npm-debug.log*
+.DS_Store
